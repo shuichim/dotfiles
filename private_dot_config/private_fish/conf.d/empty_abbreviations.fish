@@ -46,5 +46,7 @@ abbr -a lrr 'eza -lR'
 abbr -a chad 'chezmoi add'
 abbr -a ched 'chezmoi edit'
 abbr -a chcd 'chezmoi cd'
+abbr -a chdiff 'chezmoi diff'
+abbr -a chap 'chezmoi apply'
 
 end
