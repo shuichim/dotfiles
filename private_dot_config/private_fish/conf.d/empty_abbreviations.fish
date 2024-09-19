@@ -42,4 +42,9 @@ abbr -a l. 'eza -d .*'
 abbr -a lr 'eza -R'
 abbr -a lrr 'eza -lR'
 
+# Chezmoi related 
+abbr -a chad 'chezmoi add'
+abbr -a ched 'chezmoi edit'
+abbr -a chcd 'chezmoi cd'
+
 end
