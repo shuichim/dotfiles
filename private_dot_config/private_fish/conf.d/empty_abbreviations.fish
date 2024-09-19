@@ -1,4 +1,5 @@
 if status is-interactive
+
 # Basic replacements
 abbr -a l 'eza'
 abbr -a ls 'eza'
@@ -40,4 +41,5 @@ abbr -a l. 'eza -d .*'
 # Recursive listing
 abbr -a lr 'eza -R'
 abbr -a lrr 'eza -lR'
+
 end
