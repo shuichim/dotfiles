@@ -16,6 +16,7 @@ config.font_size = 14.0
 config.window_background_opacity = 0.8
 
 config.enable_tab_bar = false
+config.window_decorations = "RESIZE"
 
 -- Spawn a fish shell in login mode
 config.default_prog = { '/opt/homebrew/bin/fish', '-l' }
