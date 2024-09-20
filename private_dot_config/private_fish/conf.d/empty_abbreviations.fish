@@ -1,5 +1,9 @@
 if status is-interactive
 
+# git related
+abbr -a gcb 'git checkout -b' 
+abbr -a gco 'git checkout' 
+
 # Basic replacements
 abbr -a l 'eza'
 abbr -a ls 'eza'
