@@ -19,7 +19,14 @@ return {
 		  path = "/Users/smaruyam/Library/Mobile Documents/iCloud~md~obsidian/Documents/pkm2",
 		},
 	  },
-	  -- see below for full list of options 👇
+	 notes_subdir = "00 inbox",
+         new_notes_location = "notes_subdir",
+         preferred_link_style = "markdown",
+	 use_advanced_uri = true,
+	 open_app_foreground = true,
+	 attachments = {
+	 	img_folder = "20 attachments",
+	 }
 	},},
 	{ "nvim-lua/plenary.nvim", lazy = true },
 }
