@@ -13,7 +13,7 @@ config.color_scheme = 'AdventureTime'
 config.font = wezterm.font { family = 'HackGen Console NF', harfbuzz_features = { 'zero', 'ss01', 'cv05' } }
 config.font_size = 14.0
 
-config.window_background_opacity = 0.8
+config.window_background_opacity = 0.9
 
 config.enable_tab_bar = false
 config.window_decorations = "RESIZE"
