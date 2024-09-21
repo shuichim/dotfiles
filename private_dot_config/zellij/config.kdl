@@ -1,3 +1,5 @@
+theme "tokyo night"
+
 themes {
     // gruvbox-dark
     default {
