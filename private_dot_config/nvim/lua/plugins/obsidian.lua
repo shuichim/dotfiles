@@ -16,7 +16,7 @@ return {
 	  workspaces = {
 		{
 		  name = "personal",
-		  path = "/Users/smaruyam/Library/Mobile Documents/iCloud~md~obsidian/Documents/pkm2",
+		  path = "/Users/smaruyam/Library/Mobile Documents/iCloud~md~obsidian/Documents/simple",
 		},
 	  },
 	 notes_subdir = "00 inbox",
