@@ -20,8 +20,8 @@ themes {
 keybinds {
     normal clear-defaults=true {
         // tmux
-        bind "Ctrl f" { SwitchToMode "Tmux"; }
-        unbind "Ctrl b"
+        bind "Ctrl b" { SwitchToMode "Tmux"; }
+        //unbind "Ctrl b"
         // general stuff
         bind "Alt Left" { NewPane "Left"; }
         bind "Alt Right" { NewPane "Right"; }
@@ -43,7 +43,7 @@ keybinds {
     }
 
     tmux clear-defaults=true {
-        bind "Ctrl f" { Write 2; SwitchToMode "Normal"; }
+        bind "Ctrl b" { Write 2; SwitchToMode "Normal"; }
         bind "Esc" { SwitchToMode "Normal"; }
         bind "g" { SwitchToMode "Locked"; }
         bind "p" { SwitchToMode "Pane"; }
