@@ -6,7 +6,7 @@ if status is-interactive
     eval "$(/opt/homebrew/bin/brew shellenv)"
     starship init fish | source
 
-    if set -q ZELLIJ || string match -q "$TERM_PROGRAM" vscode || string match -q "$TERM_PROGRAM" cursor
+    if set -q ZELLIJ || string match -q "$TERM_PROGRAM" vscode
 
 
     else
